@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>about us - crazytambien</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Gaegu:wght@700&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: "Cactus Jack";
+      src: url("cactus-jack.ttf") format("truetype");
+      font-display: swap;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: #ffb852;
+      color: #5c7287;
+    }
+    .top, .middle, .bottom {
+      position: fixed;
+      margin: 0;
+      font-weight: normal;
+      white-space: nowrap;
+    }
+    .top {
+      left: 4.9vw;
+      top: 38.5vh;
+      transform: translateY(-50%);
+      font-family: "Michroma", sans-serif;
+      font-size: 3.4vw;
+      color: #5c7287;
+    }
+    .middle {
+      left: 10.8vw;
+      top: 47vh;
+      transform: translateY(-50%);
+      font-family: "Cactus Jack", "Gaegu", cursive;
+      font-size: 2vw;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #4a2c12;
+    }
+    .bottom {
+      left: 13.3vw;
+      top: 52.5vh;
+      transform: translateY(-50%);
+      font-family: "Gaegu", cursive;
+      font-weight: 700;
+      font-size: 2vw;
+      letter-spacing: 0.06em;
+      color: #4a2c12;
+    }
+
+    @media (max-width: 700px) {
+      .top { font-size: 8vw; left: 6vw; top: 30vh; }
+      .middle { font-size: 5vw; left: 10vw; top: 38vh; }
+      .bottom {
+        font-size: 4.6vw;
+        left: 12vw;
+        right: 6vw;
+        top: 44vh;
+        white-space: normal;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="top">about us</h1>
+  <h2 class="middle">american hagwon</h2>
+  <p class="bottom">because i hate chicken wings, but i love poulet rouge and brownies. Please feed me!!!!!</p>
+</body>
+</html>
