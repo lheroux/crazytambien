@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>crazytambien</title>
+  <title>Daughter of Dracula Records</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
   <style>
+    @font-face {
+      font-family: "Squash N Stretch";
+      src: url("squash-n-stretch.ttf") format("truetype");
+      font-display: swap;
+    }
     html, body {
       margin: 0;
       padding: 0;
@@ -35,13 +40,30 @@
     nav a:hover { text-decoration: underline; }
     nav a:nth-child(2) { margin-left: 4.3vw; }
 
+    .title {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      font-family: "Squash N Stretch", "Michroma", sans-serif;
+      font-weight: normal;
+      font-size: 7vw;
+      color: #ffb852;
+      white-space: nowrap;
+      user-select: none;
+    }
+
     @media (max-width: 700px) {
       nav { left: 8vw; top: 12vh; font-size: 3.2vw; }
+      .title { font-size: 11vw; }
       nav a:nth-child(2) { margin-left: 8vw; }
     }
   </style>
 </head>
 <body>
+  <h1 class="title">CRAZYTAMBIEN</h1>
+
   <nav>
     <a href="findus.html">find us</a>
     <a href="about.html">about</a>
