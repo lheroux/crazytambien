@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>find us - crazytambien</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    @font-face {
+      font-family: "Velvet";
+      src: url("velvet.ttf") format("truetype");
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Cactus Jack";
+      src: url("cactus-jack.ttf") format("truetype");
+      font-display: swap;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: #ffb852;
+      color: #362304;
+    }
+    .big, .link {
+      position: fixed;
+      margin: 0;
+      white-space: nowrap;
+      transform: translateY(-50%);
+    }
+    .big {
+      left: 7.4vw;
+      top: 60.5vh;
+      font-family: "Velvet";
+      font-weight: normal;
+      font-size: 7.5vw;
+      color: #362304;
+    }
+    .link {
+      font-family: "Cactus Jack";
+      font-size: 2.6vw;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #362304;
+      text-decoration: none;
+    }
+    .link:hover { text-decoration: underline; }
+
+    .vlogs     { left: 70vw;   top: 17vh; }
+    .essays    { left: 9vw;    top: 34vh; }
+    .pinterest { left: 48.2vw; top: 40.7vh; }
+    .instagram { left: 73.4vw; top: 83.6vh; }
+
+    @media (max-width: 700px) {
+      .big { font-size: 15vw; left: 6vw; top: 62vh; }
+      .link { font-size: 5vw; }
+      .vlogs     { left: 60vw; top: 10vh; }
+      .essays    { left: 6vw;  top: 24vh; }
+      .pinterest { left: 30vw; top: 38vh; }
+      .instagram { left: 48vw; top: 84vh; }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="big">check in?</h1>
+
+  <a class="link vlogs" href="#">vlogs</a>
+  <a class="link essays" href="#">video essays</a>
+  <a class="link pinterest" href="#">pinterest</a>
+  <a class="link instagram" href="#">instagram</a>
+</body>
+</html>
